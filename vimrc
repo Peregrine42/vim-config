@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 " UI
 Plug 'AdamWhittingham/projector_mode'                         " Toggle between colourschemes for work & projection or screensharing
-Plug 'airblade/vim-gitgutter'                                 " Show the column of changes to the file against git
+" Plug 'airblade/vim-gitgutter'                                 " Show the column of changes to the file against git
 Plug 'vim-airline/vim-airline'                                " Add a nicer status line
 Plug 'vim-airline/vim-airline-themes'                         " Themes for Airline
 Plug 'christoomey/vim-tmux-navigator'                         " Move between Vim panes & Tmux panes easily
@@ -74,7 +74,7 @@ Plug 'janko-m/vim-test'                                       " Add test running
 Plug 'tpope/vim-rbenv'                                        " Use rbenv for Ruby tools
 Plug 'tpope/vim-endwise',              {'for': 'ruby'}        " Automatically insert programming block endings (ie. `end` in Ruby, `endif` in VimL)
 Plug 'ecomba/vim-ruby-refactoring',    {'for': 'ruby'}        " Extra Ruby refactoring tools
-Plug 'vim-scripts/rubycomplete.vim',   {'for': 'ruby'}        " Extend OmniComplete with live evaluated Ruby
+" Plug 'vim-scripts/rubycomplete.vim',   {'for': 'ruby'}        " Extend OmniComplete with live evaluated Ruby
 
 " Elixir
 Plug 'avdgaag/vim-phoenix',            {'for': 'elixir'}      " Add Projectionist, Dispatch and Mix integrations for Phoenix projects
